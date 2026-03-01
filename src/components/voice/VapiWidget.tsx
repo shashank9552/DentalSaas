@@ -231,7 +231,7 @@ function VapiWidget() {
             {messages.map((msg, index) => (
               <div key={index} className="message-item animate-in fade-in duration-300">
                 <div className="font-semibold text-xs text-muted-foreground mb-1">
-                  {msg.role === "assistant" ? "DentWise AI" : "You"}:
+                  {msg.role === "assistant" ? "DentalSaas AI" : "You"}:
                 </div>
                 <p className="text-foreground">{msg.content}</p>
               </div>
